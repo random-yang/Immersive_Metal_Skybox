@@ -21,14 +21,12 @@ typedef NSInteger EnumBackingType;
 typedef NS_ENUM(EnumBackingType, BufferIndex)
 {
     BufferIndexMeshPositions = 0,
-    BufferIndexMeshGenerics  = 1,
-    BufferIndexUniforms      = 2
+    BufferIndexUniforms      = 1
 };
 
 typedef NS_ENUM(EnumBackingType, VertexAttribute)
 {
     VertexAttributePosition  = 0,
-    VertexAttributeTexcoord  = 1,
 };
 
 typedef NS_ENUM(EnumBackingType, TextureIndex)
