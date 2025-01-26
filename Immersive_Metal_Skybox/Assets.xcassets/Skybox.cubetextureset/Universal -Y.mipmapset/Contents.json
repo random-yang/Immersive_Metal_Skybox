@@ -1,0 +1,12 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "levels" : [
+    {
+      "filename" : "Cubemap from Sky Box Generator (1).png",
+      "mipmap-level" : "base"
+    }
+  ]
+}

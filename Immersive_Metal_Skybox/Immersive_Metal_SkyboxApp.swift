@@ -35,6 +35,9 @@ struct Immersive_Metal_SkyboxTestApp: App {
         }
 
         ImmersiveSpace(id: appModel.immersiveSpaceID) {
+            // 以回调的方式提供上下文和函数返回的方式的区别
+            // 回调函数：控制权在 api 内
+            // 返回函数：控制权在 caller
             CompositorLayer(configuration: ContentStageConfiguration()) { @MainActor layerRenderer in
                 Renderer.startRenderLoop(layerRenderer, appModel: appModel)
             }
